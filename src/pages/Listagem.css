@@ -1,0 +1,53 @@
+.listagem-page {
+  min-height: 100vh;
+  padding: 40px 28px;
+  background: linear-gradient(180deg, #071028 0%, #142a5f 100%);
+  color: #edf2ff;
+}
+
+.listagem-page h1 {
+  margin-bottom: 24px;
+  font-size: 2.4rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+table {
+  width: min(100%, 980px);
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+th,
+td {
+  padding: 18px 16px;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+th {
+  background: linear-gradient(135deg, #4e8bff 0%, #2363c8 100%);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+tbody tr {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+tbody tr:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+td {
+  color: #d7e4ff;
+}
+
+tbody tr td:last-child {
+  font-size: 1.1rem;
+}
